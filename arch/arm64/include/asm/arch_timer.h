@@ -77,7 +77,6 @@ u32 arch_timer_reg_read_cp15(int access, enum arch_timer_reg reg)
 			return read_sysreg(cntv_tval_el0);
 		}
 	} else {
-		val = 0;
 	}
 
 	BUG();
